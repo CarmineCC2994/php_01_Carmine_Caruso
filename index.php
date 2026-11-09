@@ -1,14 +1,27 @@
+
 <?php
 
-$text = "Marco";
-$text2 = "hai";
-$text3 = "sete";
-$text4 = "?";
-$text5 = "Perchè";
-$text6 = $text2;
-$text7 = "bevuto";
-$text8 = "tutto";
+// Definizione delle 4 variabili
 
-echo $text . " " . ucfirst($text2) . " " . $text3 . $text4 . " " . $text5 . " " . $text6 . " " . $text7 . " " . $text8 . ".";
+$eta = 32;                  // Integer
+$prezzo = 19.99;            // Float
+$nome = "Donato";           // String
+$studente = true;           // Boolean
+
+// Definizione della costante
+const nome = "Donato";
+
+// Visualizzazione del tipo di dato
+var_dump($eta);
+var_dump($prezzo);
+var_dump($nome);
+var_dump($studente);
+
+// Visualizzazione del valore della costante
+
+echo nome;
+
+// Prova a cambiare il valore della costante
+const nome = "Luigi";
 
 ?>
